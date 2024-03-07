@@ -1,6 +1,70 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Food AI',
+  description:
+    'Solve the confusion of choosing where to eat with our Artificial Intelligence! Find the perfect location, price and type of food with AI recommendations of your choice. Explore unlimited flavors, with just one touch on our app. Enjoy your culinary journey with alluring certainty!',
+  keywords: 'food, ai, artificial intelligence, restaurant, culinary',
+  applicationName: 'Food AI',
+
+  authors: [
+    {
+      name: 'Zul dev',
+      url: 'https://zulvkr.com',
+    },
+    {
+      name: 'Fany',
+      url: 'https://fany.com',
+    },
+    {
+      name: 'Udil',
+      url: 'https://udil.com',
+    },
+    {
+      name: 'Taufik Pragusga',
+      url: 'https://pragusga.com',
+    },
+  ],
+  twitter: {
+    creator: '@foodai',
+    site: '@foodai',
+    card: 'summary_large_image',
+    description:
+      'Solve the confusion of choosing where to eat with our Artificial Intelligence! Find the perfect location, price and type of food with AI recommendations of your choice. Explore unlimited flavors, with just one touch on our app. Enjoy your culinary journey with alluring certainty!',
+    creatorId: 'foodai',
+    images: [
+      {
+        url: 'https://foodai.vercel.app/logo.png',
+        width: 520,
+        height: 520,
+        alt: 'Food AI',
+      },
+    ],
+    siteId: 'foodai',
+    title: 'Food AI',
+  },
+  openGraph: {
+    title: 'Food AI',
+    description:
+      'Solve the confusion of choosing where to eat with our Artificial Intelligence! Find the perfect location, price and type of food with AI recommendations of your choice. Explore unlimited flavors, with just one touch on our app. Enjoy your culinary journey with alluring certainty!',
+    url: 'https://foodai.vercel.app',
+    type: 'website',
+    images: [
+      {
+        url: 'https://foodai.vercel.app/logo.png',
+        width: 520,
+        height: 520,
+        alt: 'Food AI',
+      },
+    ],
+    countryName: 'Indonesia',
+    siteName: 'Food AI',
+    locale: 'en_US',
+  },
+};
 
 export default function Home() {
   return (
