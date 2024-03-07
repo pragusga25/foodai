@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://foodai.vercel.app/logo.png',
-        width: 520,
-        height: 520,
+        width: 1200,
+        height: 630,
         alt: 'Food AI',
       },
     ],
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://foodai.vercel.app/logo.png',
-        width: 520,
-        height: 520,
+        width: 1200,
+        height: 630,
         alt: 'Food AI',
       },
     ],
