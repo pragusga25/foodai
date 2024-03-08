@@ -72,15 +72,20 @@ export default function Home() {
       <nav className="flex justify-between h-16 shadow-lg border-b-2 border-gray-800 px-4 md:px-20 items-center py-4 md:py-8">
         <div className="flex items-center">
           <Image src="/logo.png" alt="logo" width={35} height={35} />
-          <h1 className="text-xl font-bold ml-2 md:ml-4">FOOD.AI</h1>
+          <h1 className="text-base sm:text-lg md:text-xl font-bold ml-2 md:ml-4">
+            FOOD.AI
+          </h1>
         </div>
 
-        <div className="flex items-center">
-          <Link href="/">Getting Started</Link>
-          <Link href="/about" className="mx-4 md:mx-8">
+        <div className="flex items-center text-sm sm:text-base">
+          <Link href="/">Get Started</Link>
+          <Link href="/about" className="ml-4 sm:mx-8">
             About Us
           </Link>
-          <Link href="https://github.com/pragusga25">
+          <Link
+            href="https://github.com/pragusga25"
+            className="hidden sm:block"
+          >
             <Image src="/github.svg" alt="github" width={30} height={30} />
           </Link>
         </div>
@@ -98,15 +103,17 @@ export default function Home() {
           1.0 Version
         </Button>
 
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mt-8">
+        <h1 className="text-xl md:text-4xl lg:text-5xl font-bold text-center mt-8 px-5">
           Easy to looking for your favorite food
         </h1>
-        <p className="text-center text-gray-500 mt-6 px-4 md:px-20 max-w-[1000px]">
-          Solve the confusion of choosing where to eat with our Artificial
-          Intelligence! Find the perfect location, price and type of food with
-          AI recommendations of your choice. Explore unlimited flavors, with
-          just one touch on our app. Enjoy your culinary journey with alluring
-          certainty!
+        <p className="text-center text-gray-500 mt-6 px-5 md:px-20 max-w-[1000px]">
+          <span className="hidden sm:block">
+            Solve the confusion of choosing where to eat with our Artificial
+            Intelligence! Find the perfect location, price and type of food with
+            AI recommendations of your choice.
+          </span>{' '}
+          Explore unlimited flavors, with just one touch on our app. Enjoy your
+          culinary journey with alluring certainty!
         </p>
 
         <div className="flex flex-col md:flex-row mt-12">
@@ -115,7 +122,7 @@ export default function Home() {
           </Button>
           <Button
             variant="outline"
-            className="px-8 py-4 font-bold ml-0 md:ml-8"
+            className="px-8 py-4 font-bold ml-0 mt-5 md:mt-0 md:ml-8"
           >
             Learn More
           </Button>
