@@ -80,7 +80,7 @@ export default function Home() {
           <Link href="/about" className="mx-4 md:mx-8">
             About Us
           </Link>
-          <Link href="/contact">
+          <Link href="https://github.com/pragusga25">
             <Image src="/github.svg" alt="github" width={30} height={30} />
           </Link>
         </div>
