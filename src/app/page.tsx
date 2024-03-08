@@ -4,7 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Food AI',
+  title: 'Food AI | Home',
   description:
     'Solve the confusion of choosing where to eat with our Artificial Intelligence! Find the perfect location, price and type of food with AI recommendations of your choice. Explore unlimited flavors, with just one touch on our app. Enjoy your culinary journey with alluring certainty!',
   keywords: 'food, ai, artificial intelligence, restaurant, culinary',
